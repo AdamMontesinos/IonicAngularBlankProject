@@ -1,0 +1,76 @@
+.saludo_bienvenido{
+  position: absolute;
+  width: 375px;
+  height: 60px;
+  left: 0px;
+  top: 311px;
+  /* Headline 48 / Family #1 / Bold */
+  font-family: Inter,;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 60px;
+  /* identical to box height, or 125% */
+  text-align: center;
+  /* Black */
+  color: #212121;
+}
+
+/* ¿Que es lo que te gustaría hacer hoy? */
+
+.quetegustariahacerhoy{
+    
+position: absolute;
+width: 375px;
+height: 28px;
+left: 0px;
+top: 380px;
+
+font-family: Oxygen;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+
+text-align: center;
+
+color: #757575;
+}
+
+.boton_sinfondo_verde_principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  
+  position: absolute;
+  width: 195px;
+  height: 40px;
+  left: 94px;
+  top: 547px;
+  /* Primary / 500 (Base) */
+  border: 2px solid #00AD62;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.boton_fondo_verde_principal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 16px;
+  color:white;
+  
+  position: absolute;
+  width: 195px;
+  height: 36px;
+  right: 86px;
+  top: 601px;
+  
+  /* Primary / 500 (Base) */
+  
+  background: #00AD62;
+  border-radius: 4px;
+}
